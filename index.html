@@ -27,7 +27,7 @@
         <nav class="navigation">
           <a class="logo link" href="./index.html">web<span class="logo-two">Studio</span> </a>
           <ul class="list menu">
-            <li class="menu-item"><a class="link" href="./index.html">Studio</a></li>
+            <li class="menu-item menu-studio"><a class="link" href="./index.html">Studio</a></li>
             <li class="menu-item"><a class="link" href="./portfolio.html">Portfolio</a></li>
             <li class="menu-item"><a class="link" href="">Contacts</a></li>
           </ul>
@@ -50,7 +50,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="title-hero">Effective Solutions for Your Business</h1>
-          <button class="botton-hero" type="button">Order Service</button>
+          <button data-modal-open class="botton-hero" type="button">Order Service</button>
         </div>
       </section>
       <!-- Our advantages  -->
@@ -375,5 +375,17 @@
        </div>
       </div>
     </footer>
+    <!-- Modal Windows -->
+    <div data-modal class="backdrop is-hidden">
+      <div class="modal">
+        <button data-modal-close class="button-modal-close" type="button">
+          <svg class="icon-modal-close" width="8" height="8">
+            <use href="./images/img-icon.svg/icons.svg#icon-close-modal"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="./js/modal.js"></script>
   </body>
 </html>
