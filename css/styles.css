@@ -132,7 +132,7 @@ img {
   color: var(--pressed-state);
 }
 
-.menu-studio{
+.menu .menu-studio{
   position: relative;
   color: #404bbf;
 }
